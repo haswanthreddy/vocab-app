@@ -44,7 +44,7 @@ class Home extends Component {
 
   // for getting all the data
   getAllData = async (search = "") => {
-    const data = await fetch(`http://localhost:5000/?search=${search}`);
+    const data = await fetch(`http://localhost:3000/?search=${search}`);
     const result = await data.json();
     if (result.status === "success") {
       this.onApiGetAllSuccess(result.data);
@@ -74,7 +74,7 @@ class Home extends Component {
         Accept: "application/json",
       },
     };
-    const response = await fetch(`http://localhost:5000/${id}`, options);
+    const response = await fetch(`http://localhost:3000/${id}`, options);
     const data = await response.json();
     console.log(data);
     if (data.status === "success") {
@@ -116,7 +116,7 @@ class Home extends Component {
         },
         body: JSON.stringify({ word }),
       };
-      const response = await fetch("http://localhost:5000/", options);
+      const response = await fetch("http://localhost:3000/", options);
       const data = await response.json();
 
       if (data.status === "success") {
