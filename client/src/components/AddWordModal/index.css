@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;400;600;700&display=swap");
+
+* {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.modal-header {
+  border-bottom: 0 none;
+}
+
+.modal-footer {
+  border-top: 0 none;
+}
+
+.modal-width {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.modal-input-title {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.modal-input {
+  outline: none;
+  border: 0 solid #63244a;
+  border-bottom-width: 2.5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.modal-cancel-button {
+  border: 0 solid;
+  color: #63244a;
+  background: transparent;
+  margin-right: 15px;
+}
+
+.modal-add-button {
+  border: 0 solid;
+  color: #63244a;
+  background: transparent;
+}
+
+@media all and (max-width: 550px) {
+  .modal-width {
+    width: 80%;
+    max-width: 350px;
+  }
+  .modal-input-title {
+    font-size: 14px;
+  }
+
+  .modal-input {
+    margin-bottom: 10px;
+  }
+
+  .modal-add-button {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .modal-cancel-button {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+.adding-word-title {
+  color: grey;
+}
+
+.adding-word-input {
+  border: 0 solid #c0c0c0;
+  border-bottom-width: 1px;
+}

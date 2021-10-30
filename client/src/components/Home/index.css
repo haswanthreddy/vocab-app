@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;400;600;700&display=swap");
+
+.main-container {
+  overflow-y: hidden;
+}
+
+.vocab-container {
+  width: 100%;
+  padding-top: 15px;
+  border: 0 solid;
+  border-radius: 18px 18px 0 0;
+  background: #fefefe;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.content-container {
+  flex-wrap: wrap;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 100vh;
+  padding-bottom: 115px;
+}
+
+.words-list-container {
+  margin-left: 20px;
+}
+
+.words-list-container h1 {
+  font-family: "Kumbh Sans", sans-serif;
+  margin-right: 10px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.header {
+  background: #63244a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 19px;
+  padding-left: 19px;
+  color: #f5f5f5de;
+  width: 100%;
+  margin-bottom: 9px;
+  font-family: "Kumbh Sans", sans-serif;
+  top: 0;
+  margin-top: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  z-index: -10;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.header button {
+  margin-left: auto;
+  background: transparent;
+  border: 0 solid;
+  color: #f5f5f5de;
+  /* z-index: 100; */
+}
+
+.header input {
+  width: 100%;
+  background: transparent;
+  border: 0 solid;
+  color: white;
+  outline: none;
+  font-size: 16px;
+  /* z-index: 100; */
+}
+
+.add-button {
+  margin: 0 20px 20px 0;
+  border: 0 solid;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  /* z-index: 100; */
+  bottom: 0;
+  right: 0;
+  background: #63244a;
+  color: white;
+}
+
+.loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
